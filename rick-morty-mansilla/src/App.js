@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from './componentes/Header'
 import Personajes from './componentes/Personajes'
+import Footer from './componentes/Footer'
 
 import arrayRickAndMorty from './rickandmorty.json';
 
@@ -9,7 +10,7 @@ console.log(arrayRickAndMorty);
 function App() {
   return (
     <div classNameNameName="App">
-      <header classNameName="App-header">
+      <header className="App-header">
           <div className="Header">
                 <Header />
           </div>
@@ -31,6 +32,10 @@ function App() {
           </ul>
 
           </div>
+
+          <footer className="Footer">
+              <Footer />
+          </footer>
 
 
     </div>

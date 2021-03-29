@@ -11,6 +11,13 @@
             color: black;
             padding: 2%;
   }
+
+  .Footer { grid-area: 1 / 1 / 2 / 4;
+    background-color: violet;
+    text-align: center;
+    color: black;
+    padding: 2%;
+}
       
   span{
     font-style: italic;
@@ -19,10 +26,15 @@
 
   h4{
       padding: 2%;
+      color: black;
   }
+
+
 
   p{
     padding: 2%;
+    color: black;
+    letter-spacing: 1px;
   }
 
   img{
