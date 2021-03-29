@@ -1,0 +1,17 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+  }
+  
+  .Header { grid-area: 1 / 1 / 2 / 4; }
+  
+  .Main-DIV { grid-area: 2 / 1 / 4 / 4; }
+  
+  .Personaje-1 { grid-area: 2 / 1 / 4 / 2; }
+  
+  .Personaje-2 { grid-area: 2 / 2 / 4 / 3; }
+  
+  .Personaje-3 { grid-area: 2 / 3 / 4 / 4; }
+  
