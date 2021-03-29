@@ -2,16 +2,37 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    gap: 0px 0px;
+    gap: 25px 25px;
   }
   
-  .Header { grid-area: 1 / 1 / 2 / 4; }
-  
+  .Header { grid-area: 1 / 1 / 2 / 4;
+            background-color: violet;
+            text-align: center;
+            color: black;
+            padding: 2%;
+  }
+      
+  span{
+    font-style: italic;
+    color: white;
+  }
+
   .Main-DIV { grid-area: 2 / 1 / 4 / 4; }
   
-  .Personaje-1 { grid-area: 2 / 1 / 4 / 2; }
+  .Personaje-1 { grid-area: 2 / 1 / 4 / 2;
+                  background-color: aqua;
+                  padding: 2%;  
+                }
   
-  .Personaje-2 { grid-area: 2 / 2 / 4 / 3; }
+  .Personaje-2 { grid-area: 2 / 2 / 4 / 3;
+                    background-color: burlywood;
+                    padding: 2%;
+                }
   
-  .Personaje-3 { grid-area: 2 / 3 / 4 / 4; }
+  .Personaje-3 { grid-area: 2 / 3 / 4 / 4;
+                    background-color: coral;
+                    padding: 2%;
+                }
+
+  
   
