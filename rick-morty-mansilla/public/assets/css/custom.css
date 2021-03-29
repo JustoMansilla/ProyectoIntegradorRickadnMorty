@@ -17,6 +17,18 @@
     color: white;
   }
 
+  h4{
+      padding: 2%;
+  }
+
+  p{
+    padding: 2%;
+  }
+
+  img{
+      margin-top: 5%;
+  }
+
   .Main-DIV { grid-area: 2 / 1 / 4 / 4; }
   
   .Personaje-1 { grid-area: 2 / 1 / 4 / 2;
