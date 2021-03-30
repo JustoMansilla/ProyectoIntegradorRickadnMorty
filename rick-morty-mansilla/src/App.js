@@ -9,7 +9,8 @@ console.log(arrayRickAndMorty);
 
 function App() {
   return (
-    <div classNameNameName="App">
+    <div className="App">
+
       <header className="App-header">
           <div className="Header">
                 <Header />
@@ -19,7 +20,7 @@ function App() {
         <div className="grid-container">
           
 
-           <ul>
+           
           {
                   arrayRickAndMorty.map(function (personaje, idx) {
                     return(
@@ -29,9 +30,8 @@ function App() {
                     )
                   })
           }
-          </ul>
 
-          </div>
+        </div>
 
           <footer className="Footer">
               <Footer />

@@ -3,6 +3,7 @@
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     gap: 25px 25px;
+    margin: 3%;
   }
   
   .Header { grid-area: 1 / 1 / 2 / 4;
@@ -26,7 +27,7 @@
 
   h4{
       padding: 2%;
-      color: black;
+      color: blue;
   }
 
 
@@ -39,24 +40,19 @@
 
   img{
       margin-top: 5%;
+      border-radius: 50%;
   }
 
   .Main-DIV { grid-area: 2 / 1 / 4 / 4; }
   
   .Personaje-1 { grid-area: 2 / 1 / 4 / 2;
-                  background-color: aqua;
-                  padding: 2%;  
+                  background-color: #f9f9f9;
+                  border-radius: 5%;
+                  text-align: center;
+                    
                 }
   
-  .Personaje-2 { grid-area: 2 / 2 / 4 / 3;
-                    background-color: burlywood;
-                    padding: 2%;
-                }
   
-  .Personaje-3 { grid-area: 2 / 3 / 4 / 4;
-                    background-color: coral;
-                    padding: 2%;
-                }
 
   
   

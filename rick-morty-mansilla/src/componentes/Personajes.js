@@ -3,7 +3,7 @@ import React from 'react';
 function Personajes(props) {
     return(
         <React.Fragment> 
-        
+            <div className="Personaje-1">
             <img src={props.personaje.image} alt="" />
 
             <h4>
@@ -25,7 +25,7 @@ function Personajes(props) {
             {props.personaje.origin.name}
 
             </p>
-
+            </div>
         </React.Fragment>
     );
 }
