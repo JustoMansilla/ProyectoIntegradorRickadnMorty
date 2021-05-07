@@ -2,6 +2,7 @@ import React from 'react';
 import Header from './componentes/Header'
 import Personajes from './componentes/Personajes'
 import Footer from './componentes/Footer'
+import { ContadorComponent } from './contador/contador.component';
 
 import arrayRickAndMorty from './rickandmorty.json';
 
@@ -31,6 +32,10 @@ function App() {
                   })
           }
 
+        </div>
+
+        <div>
+          <ContadorComponent/>
         </div>
 
           <footer className="Footer">
